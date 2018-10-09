@@ -7,7 +7,7 @@ $(function () {
     var right=header1.querySelector(".right");
     var top1=header1.offsetHeight;
     var TOP=document.querySelector("#TIME").offsetTop;
-    console.log(TOP);
+
     $(window).scroll(function(){
         var top = $(this).scrollTop();
         if(top>=top1){
